@@ -1,2 +1,55 @@
-1. loop over the employee array-object list 
-    - 
+CODING ALONG WITH KEY - notes
+
+GOAL: do this assn by myself !!!! 
+
+//client.js make sure it is ready - ensure it is 'onReady'
+$(document).ready(onReady); 
+-- this is important for our 'loop'
+
+1. create an onReady() function -
+ - inside we need a loop that will go over the entire 'employee' array/objct list
+ FOR LOOP ++> for (let employee of employees) {
+ }
+- need to loop over each employee 
+
+2. break down code aka DE-COUPLING 
+
+
+****** INSIDE THE calculateIndividualEmployeeBonus function: 
+
+3. Conditional statements for these: 
+-***  Set a variable to hold these Conditional statements *** AKA let bonusPercentage; 
+- Those who have a rating of a 2 or below should not receive a bonus.
+- Those who have a rating of a 3 should receive a base bonus of 4% of their base annual income.
+- Those who have a rating of a 4 should receive a base bonus of 6% of their base annual income.
+- Those who have a rating of a 5 should receive a base bonus of 10% of their base annual income.
+** handle/catches ERROR or out of norm situation with the else / defaul == if not any of the about then default to this
+
+4. write another set of Conditional statements for these special cases: 
+- If their employee number is 4 digits long, this means they have been with the company for longer than 15 years,
+  and should receive an additional 5%. (example: bonusPercentage += 5;)
+
+5. write another set of Conditional statements for this:
+- However, if their annual income is greater than $65,000, they should have their bonus adjusted down 1%.
+example: bonusPercentage -= 1;
+
+6. write another set of Conditional statements for this: MIN 0%
+- referring to: No bonus can be above 13% or below 0% total. 
+
+6. write another set of Conditional statements for this: MAX 13% 
+- referring to: No bonus can be above 13% or below 0% total. 
+
+7. create a variable 'totalBonus'; to get the total bonusPercentage you need:
+a. employee's annualSalary 
+b. bonusPercentage / 100 (this take the integers and turn into decimals)
+
+8. create another variable 'totalCompensation' by taking the totalBonus adding with employee's annualSalary
+- remember to use Number() method! to convert the annualSalary string to Number instead!
+
+
+
+
+
+
+
+//setup jquery stuff = for the BONUS// 
