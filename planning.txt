@@ -1,0 +1,2 @@
+1. loop over the employee array-object list 
+    - 

@@ -65,6 +65,8 @@ Write a declared function that takes in one **Employee** object (as an argument 
 * The `totalCompensation` property should be the adjusted annual compensation (base annual + bonus)
 * The `totalBonus` should be the employee's total bonus rounded to the nearest dollar.
 
+`${name} ${bonusPercentage} ${totalCompensation} ${totalBonus}`
+
 ### Individual Bonus Rules
 
 - Those who have a rating of a 2 or below should not receive a bonus.

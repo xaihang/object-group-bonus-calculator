@@ -43,15 +43,30 @@ console.log('array of employee data: ',  employees );
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
+// ------------ REFERENCES: -------------- //
+// //  1. baseBonus // how? employee's annualSalary - which depends on employee's rating. 
+//     let baseBonus = employees.annualSalary * employees.reviewRating;
+
+// //  2. yearAdjustment  // how? 
+//     let yearAdjustment = 
+
+// //  3. incomeAdjustment // how? 
+//     let incomeAdjustment = 
+
+// // year adjustment = *** IF: employeeNumber is 4digits long = employee's rating + extra 5% of their annualIncome
+// // incomeAdjustment = ** IF: annualIncome is greater than 65,000 = bonusAdjusted DOWN 1 % of their annualIncome
+// // ***** NO BONUS can be above 13% OR  below 0% total 
+// baseBonus < 13 % || > 0 %
 
 
+//--------- This function will calculate 1 employee's bonus!----------
 
-// This function will calculate 1 employee's bonus!
-//
 function calculateIndividualEmployeeBonus( employee ) {  
-  // your logic here
-  
-  
-  // return new object with bonus results
+  // ======> your logic here
+
+  // ======> return new object with bonus results
 
 }
+// calculateIndividualEmployeeBonus();
+
+
