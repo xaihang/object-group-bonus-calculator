@@ -32,9 +32,7 @@ const employees = [
   }
 ];
 
-// console.log('array of employee data: ',  employees );
-
-
+console.log('array of employee data: ',  employees );
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
