@@ -1,20 +1,10 @@
 NOTES: break down code aka DE-COUPLING 
 
-
-
 1. create a function -
  - inside we need a loop that will go over the entire 'employee' array/objct list
  FOR LOOP ++> for (let employee of employees) {
  }
 - need to loop over each employee 
-
-const employeeObject = function (array) {
-  for (let employee of employees) {
-    console.log( `Name: ${employee.name}`); // looping through each employee
-  }
-}
-employeeObject(employees); 
-
 
 
 ****** INSIDE THE calculateIndividualEmployeeBonus function: 
@@ -27,24 +17,10 @@ employeeObject(employees);
 - Those who have a rating of a 5 should receive a base bonus of 10% of their base annual income.
 ** handle/catches ERROR or out of norm situation with the else / default == if not any of the about then default to this
 
-let bonusPercentage; 
-if(reviewRating <= 2 ) {
-     bonusPercentage = 0;
-} else if(reviewRating === 3) {
-     bonusPercentage = 4;
-} else if(reviewRating === 4) {
-     bonusPercentage = 6;
-} else if (reviewRating === 5) {
-     bonusPercentage = 10; 
-} else {
-    console.log('Employee reviewRating does not match any criteria above!');
-}
 
 3. write another set of Conditional statements for these special cases: 
 - If their employee number is 4 digits long, this means they have been with the company for longer than 15 years,
   and should receive an additional 5%. (example: bonusPercentage += 5;)
-
-
 
 
 4. write another set of Conditional statements for this:

@@ -1,3 +1,6 @@
+$(document).onReady(function() {
+console.log('$$$$$');
+
 // array of employee objects
 const employees = [
   {
@@ -99,3 +102,5 @@ if(Number(employee.annualSalary) >= 65000 && bonusPercentage > 0){
 }
 
 employeeObject(employees); 
+
+});
